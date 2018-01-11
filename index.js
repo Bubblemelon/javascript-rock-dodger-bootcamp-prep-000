@@ -54,8 +54,9 @@ function checkCollision(rock) {
 function createRock(x) {
   const rock = document.createElement('div')
 
-  rock.className = 'rock'
-  rock.style.left = `${x}px`
+  // rock.className = 'rock'
+  // rock.style.left = `${x}px`
+  // understand these commands
 
   // Hmmm, why would we have used `var` here?
   var top = 0
